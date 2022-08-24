@@ -38,16 +38,17 @@ body {
     font-size: 40px;
     font-weight: bold;
     padding-top: 20px;
+    text-align: center;
 }
 
 .donate-section p {
     color: gray;
     padding: 0px 400px;
+    text-align: center;
 }
 
 .donate-section {
     text-align: center;
-    border: 2px solid red;
 }
 
 .small-box {
@@ -57,4 +58,69 @@ body {
     display: inline-block;
     margin: 30px 15px;
     border-radius: 5px;
+}
+
+#other-amount {
+    color: rgb(164, 164, 164);
+    font-size: 20px;
+    text-align: center;
+}
+
+#line {
+    margin: 0% 23%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#small-box2 {
+    background-color: rgba(255, 55, 15, 0.188);
+    border: 2px solid tomato;
+}
+
+.donate-plan h2 {
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.donate-plan p {
+    color: gray;
+    padding: 0px 400px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.big-box {
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    margin-left: 65px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#big-box1 {
+    background-color: #EFF5F6;
+}
+
+#big-box2 {
+    background-color: #FCF0EE;
+}
+
+#big-box3 {
+    background-color: #FDF4D9;
+}
+
+.subcribe h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.subcribe p {
+    font-size: 18px;
+    color: #8f8f8f;
+    text-align: center;
 }
