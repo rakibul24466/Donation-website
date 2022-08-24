@@ -51,6 +51,12 @@ body {
     text-align: center;
 }
 
+.test {
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+}
+
 .small-box {
     height: 130px;
     width: 140px;
@@ -58,7 +64,11 @@ body {
     display: inline-block;
     margin: 30px 15px;
     border-radius: 5px;
+    font-size: 30px;
+    color: rgb(99, 99, 99);
+    font-weight: bold;
 }
+
 
 #other-amount {
     color: rgb(164, 164, 164);
@@ -123,4 +133,46 @@ body {
     font-size: 18px;
     color: #8f8f8f;
     text-align: center;
+}
+
+
+.input-field {
+    margin: 0 auto;
+    height: 60px;
+    width: 500px;
+    background-color: #FDF4DA;
+    padding: 10%;
+}
+
+.subs-info {
+    margin-bottom: 70px;
+}
+
+.email {
+    height: 50px;
+    width: 300px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+}
+
+.sub-button {
+    height: 50px;
+    width: 150px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    display: block;
+    padding-top: 40px;
 }
